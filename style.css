@@ -1,1 +1,32 @@
-.{}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+* {
+    border: blue solid 1px;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #F7AFC6;
+}
+
+.header-top {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.top-right{
+    display: flex;
+    gap: 10px;
+}
+
+.header-bot {
+    display: flex;
+}
