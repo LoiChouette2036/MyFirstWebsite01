@@ -4,14 +4,24 @@ body {
     margin: 0;
 }
 
-* {
+/* {
     border: blue solid 1px;
+}*/
+
+.monBouton {
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    
 }
 
 
 .header {
     display: flex;
     flex-direction: column;
+    color: white;
     background-color: #F7AFC6;
 }
 
@@ -28,5 +38,17 @@ body {
 }
 
 .header-bot {
-    display: flex;
+    display: flex;    
 }
+
+.bot-left {
+    padding: 10px;
+    flex-grow: 1;
+}
+
+.bot-right{
+    display: flex;
+    justify-content: center;
+
+}
+
