@@ -4,16 +4,15 @@ body {
     margin: 0;
 }
 
-/* {
-    border: blue solid 1px;
-}*/
-
 .monBouton {
     background-color: blue;
     color: white;
     font-size: 16px;
     border: none;
     padding: 10px 20px;
+    border: solid white 2px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     
 }
 
@@ -51,4 +50,92 @@ body {
     justify-content: center;
 
 }
+
+.center-up {
+    display: flex;
+    flex-direction: column;   
+}
+
+#titre {
+    display: flex;
+    justify-content: center;
+}
+
+.image_align{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.image_align img {
+    width: 200px;
+    height: 200px;    
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px #F7AFC6;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+
+.center-down{
+    display: flex;
+    justify-content: flex-start;
+    background-color: #F7AFC6;
+    color: white;    
+}
+
+#quote{
+    display: flex;
+    font-size: 36px;
+    font-family: light italic;
+}
+
+#quoter{
+    display: flex;
+    align-items: flex-end;
+    font-size: 18px;
+    font-family: light italic;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.footer_left{
+    background-color: blue;
+    padding: 10px;
+    color: white;
+}
+
+#footer_right{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+
+#monBouton2{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    padding: 10px 20px;
+    border: solid white 2px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+/* {
+    border: solid red 2px;
+}*/
 
